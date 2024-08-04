@@ -1,4 +1,4 @@
-﻿namespace App2
+﻿namespace Data
 {
     public static class Generator
     {
@@ -6,7 +6,7 @@
         {
             IList<Student> studentList = new List<Student>()
             {
-                new Student() { SchoolId=1,  StudentID = 1, StudentName = "John", Age = 18, City = "Adana", Gender = "Male" },
+                new Student() { SchoolId=1,  StudentID = 1, StudentName = "John eflek", Age = 101, City = "Adana", Gender = "Male" },
                 new Student() { SchoolId=4,  StudentID = 2, StudentName = "Steve", Age = 15, City = "Adana", Gender = "Male" },
                 new Student() { SchoolId=4,  StudentID = 3, StudentName = "Zelal", Age = 25, City = "Adana", Gender = "Female" },
                 new Student() { SchoolId=4,  StudentID = 4, StudentName = "Ram", Age = 20, City = "Ankara", Gender = "Male" },
@@ -14,7 +14,7 @@
                 new Student() { SchoolId=5,  StudentID = 6, StudentName = "Mike", Age = 20, City = "Ankara", Gender = "Male" },
                 new Student() { SchoolId=2,  StudentID = 7, StudentName = "Chris", Age = 21, City = "Ankara", Gender = "Male" },
                 new Student() { SchoolId=3,  StudentID = 8, StudentName = "Paul", Age = 24, City = "Ankara", Gender = "Male" },
-                new Student() { SchoolId=1,  StudentID = 9, StudentName = "Tom", Age = 23, City = "Ankara", Gender = "Male" },
+                new Student() { SchoolId=1,  StudentID = 9, StudentName = "Tom eflek", Age = 23, City = "Ankara", Gender = "Male" },
                 new Student() { SchoolId=1,  StudentID = 10, StudentName = "Jerry", Age = 17, City = "Diyarbakır", Gender = "Male" },
                 new Student() { SchoolId=2,  StudentID = 11, StudentName = "Nick", Age = 16, City = "Diyarbakır", Gender = "Male" },
                 new Student() { SchoolId=1,  StudentID = 12, StudentName = "James", Age = 20, City = "Diyarbakır", Gender = "Male" },
@@ -28,7 +28,7 @@
                 new Student() { SchoolId=1,  StudentID = 20, StudentName = "Thomas", Age = 20, City = "Gazi Antep", Gender = "Male" },
                 new Student() { SchoolId=3,  StudentID = 21, StudentName = "Daniel", Age = 22, City = "Gazi Antep", Gender = "Male" },
                 new Student() { SchoolId=3,  StudentID = 22, StudentName = "Matthew", Age = 20, City = "Kayseri", Gender = "Male" },
-                new Student() { SchoolId=3,  StudentID = 23, StudentName = "Anthony", Age = 10, City = "Kayseri", Gender = "Male" },
+                new Student() { SchoolId=3,  StudentID = 23, StudentName = "Anthony eflek", Age = 10, City = "Kayseri", Gender = "Male" },
                 new Student() { SchoolId=3,  StudentID = 24, StudentName = "Donald", Age = 21, City = "Kayseri", Gender = "Male" },
                 new Student() { SchoolId=3,  StudentID = 25, StudentName = "Mark", Age = 19, City = "Kayseri", Gender = "Male" },
                 new Student() { SchoolId=2,  StudentID = 26, StudentName = "Paul", Age = 10, City = "Kayseri", Gender = "Male" },
@@ -45,9 +45,9 @@
                 new Student() { SchoolId=4,  StudentID = 37, StudentName = "Jacob", Age = 19, City = "Ordu", Gender = "Male" },
                 new Student() { SchoolId=1,  StudentID = 38, StudentName = "Gary", Age = 25, City = "Artvin", Gender = "Male" },
                 new Student() { SchoolId=1,  StudentID = 39, StudentName = "Nicholas", Age = 10, City = "Artvin", Gender = "Male" },
-                new Student() { SchoolId=1,  StudentID = 40, StudentName = "Aylin", Age = 1, City = "Artvin", Gender = "Female" },
-                new Student() { SchoolId=5,  StudentID = 41, StudentName = "Aylin", Age = 21, City = "İstnabul", Gender = "Female" },
-                new Student() { SchoolId=5,  StudentID = 42, StudentName = "Aylin", Age = 7, City = "İstnabul", Gender = "Female" },
+                new Student() { SchoolId=1,  StudentID = 40, StudentName = "Aylin can ", Age = 1, City = "Artvin", Gender = "Female" },
+                new Student() { SchoolId=5,  StudentID = 41, StudentName = "Aylin ala", Age = 21, City = "İstnabul", Gender = "Female" },
+                new Student() { SchoolId=5,  StudentID = 42, StudentName = "Aylin data", Age = 7, City = "İstnabul", Gender = "Female" },
                 new Student() { SchoolId=5,  StudentID = 43, StudentName = "Nicholas", Age = 1, City = "İstnabul", Gender = "Male" },
              };
 

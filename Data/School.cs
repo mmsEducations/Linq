@@ -1,4 +1,4 @@
-﻿namespace App2
+﻿namespace Data
 {
     public class School
     {

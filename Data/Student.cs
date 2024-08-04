@@ -1,4 +1,4 @@
-﻿namespace App2
+﻿namespace Data
 {
     public class Student
     {
@@ -17,5 +17,8 @@
         }
 
         public int SchoolId { get; set; }
+
+
+        public string LastName { get; set; } = "Test";
     }
 }
